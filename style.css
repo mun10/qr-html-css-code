@@ -2,21 +2,20 @@ body{
     background-color: rgb(227, 240, 251);
 }
 .parent{
-    position: relative;
-    left: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     border: 1px  solid white;
     border-radius: 20px;
     width: 280px;
-    height: 450px;
+    height: 450px; 
     background-color: white;
     margin-top: 150px;
 }
